@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\mysql\bin\Debug\netcoreapp2.0\mysql.deps.json
+C:\Users\Admin\Desktop\mysql\bin\Debug\netcoreapp2.0\mysql.runtimeconfig.json
+C:\Users\Admin\Desktop\mysql\bin\Debug\netcoreapp2.0\mysql.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\mysql\bin\Debug\netcoreapp2.0\mysql.dll
+C:\Users\Admin\Desktop\mysql\bin\Debug\netcoreapp2.0\mysql.pdb
+C:\Users\Admin\Desktop\mysql\obj\Debug\netcoreapp2.0\mysql.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\mysql\obj\Debug\netcoreapp2.0\mysql.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\mysql\obj\Debug\netcoreapp2.0\mysql.AssemblyInfo.cs
+C:\Users\Admin\Desktop\mysql\obj\Debug\netcoreapp2.0\mysql.dll
+C:\Users\Admin\Desktop\mysql\obj\Debug\netcoreapp2.0\mysql.pdb
+C:\Users\Admin\Desktop\mysql\obj\Debug\netcoreapp2.0\mysql.csprojResolveAssemblyReference.cache
