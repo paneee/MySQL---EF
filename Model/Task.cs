@@ -4,10 +4,11 @@ namespace mysql
 {
     class Task
     {
-        public int Id { get; set; } 
+        public int Id { get; set; }
+        public string TaskName { get; set; }
         public string IpPLC { get; set; }
-        public string TagName {get;set;}
-        public int Interv {get; set;} 
+        public string TagName { get; set; }
+        public int Interv { get; set; }
     }
 
     public enum Type
