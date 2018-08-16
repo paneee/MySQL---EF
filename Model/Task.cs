@@ -2,7 +2,7 @@ using System;
 
 namespace mysql
 {
-    class Task
+    public class Task
     {
         public int TaskID { get; set; }
         public string TaskName { get; set; }
@@ -11,9 +11,4 @@ namespace mysql
         public int Interv { get; set; }
     }
 
-    public enum Type
-    {
-        Time,
-        Interval,
-    }
 }
