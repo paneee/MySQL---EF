@@ -11,15 +11,15 @@ namespace mysql
             {
                 context.Database.EnsureCreated();
 
-                Task t1 = new Task { TaskName = "Test1", Interv = 10, IpPLC = "10.11.20.120", TagName = "TagName1" };
-                Task t2 = new Task { TaskName = "Test2", Interv = 15, IpPLC = "10.11.23.126", TagName = "TagName2" };
-                Task t3 = new Task { TaskName = "Test3", Interv = 25, IpPLC = "10.11.18.118", TagName = "TagName3" };
-                Task t4 = new Task { TaskName = "Test4", Interv = 30, IpPLC = "10.11.21.121", TagName = "TagName4" };
-                Task t5 = new Task { TaskName = "Test5", Interv = 35, IpPLC = "10.11.10.10", TagName = "TagName5" };
-                Task t6 = new Task { TaskName = "Test6", Interv = 45, IpPLC = "10.11.29.78", TagName = "TagName6" };
-                Task t7 = new Task { TaskName = "Test7", Interv = 55, IpPLC = "10.11.19.45", TagName = "TagName7" };
-                Task t8 = new Task { TaskName = "Test8", Interv = 60, IpPLC = "10.11.43.34", TagName = "TagName8" };
-                Task t9 = new Task { TaskName = "Test9", Interv = 75, IpPLC = "10.11.56.23", TagName = "TagName9" };
+                Task t1 = new Task { TaskName = "Test1", TaskInterval = 10, IpPLC = "10.11.20.120", TagName = "TagName1" };
+                Task t2 = new Task { TaskName = "Test2", TaskInterval = 15, IpPLC = "10.11.23.126", TagName = "TagName2" };
+                Task t3 = new Task { TaskName = "Test3", TaskInterval = 25, IpPLC = "10.11.18.118", TagName = "TagName3" };
+                Task t4 = new Task { TaskName = "Test4", TaskInterval = 30, IpPLC = "10.11.21.121", TagName = "TagName4" };
+                Task t5 = new Task { TaskName = "Test5", TaskInterval = 35, IpPLC = "10.11.10.10", TagName = "TagName5" };
+                Task t6 = new Task { TaskName = "Test6", TaskInterval = 45, IpPLC = "10.11.29.78", TagName = "TagName6" };
+                Task t7 = new Task { TaskName = "Test7", TaskInterval = 55, IpPLC = "10.11.19.45", TagName = "TagName7" };
+                Task t8 = new Task { TaskName = "Test8", TaskInterval = 60, IpPLC = "10.11.43.34", TagName = "TagName8" };
+                Task t9 = new Task { TaskName = "Test9", TaskInterval = 75, IpPLC = "10.11.56.23", TagName = "TagName9" };
 
                 Data d1 = new Data { Date = DateTime.Now, Value = 12, Task = t1 };
                 Data d2 = new Data { Date = DateTime.Now, Value = 15, Task = t2 };

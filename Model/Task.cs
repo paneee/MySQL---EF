@@ -8,7 +8,7 @@ namespace mysql
         public string TaskName { get; set; }
         public string IpPLC { get; set; }
         public string TagName { get; set; }
-        public int Interv { get; set; }
+        public int TaskInterval { get; set; }
     }
 
 }
